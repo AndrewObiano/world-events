@@ -132,3 +132,12 @@ function reverse(){
 // Final Boss
 // Add event listeners for the thumbs up and thumbs down images that will count the number of times the thumb has been clicked on. 
 
+var thumbsUp = document.getElementsByTagName('fas fa-thumbs-up');
+
+for(i=0; i<thumbsUp.length; i++){
+    thumbsUp[i].addEventListener('click', countUp);
+}
+
+function countUp(){
+    
+}
